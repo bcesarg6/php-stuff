@@ -1,0 +1,35 @@
+body {
+  font-family: 'Noto Serif JP', sans-serif;
+  background-color: #darkgray;
+}
+
+h1 {
+  color: orange;
+  text-align: center;
+  background-color: #12395d;
+  padding: 2.5em;
+  margin: 0 0;
+}
+/*ul {
+  background-color: rgb(13, 59, 49);
+  padding: 1em;
+}*/
+
+li {
+  list-style-type: none;
+  background-image: url("twitter.png");
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 50%;
+  padding: 30px;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(70, 137, 207);
+}
+
+a:hover {
+  color: darkred;
+}
